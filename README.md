@@ -1,8 +1,8 @@
 # pembahasan-soal
 
-Stack yang digunakan: json
-Software yang dibutuhkan: Browser(Chrome)
-Cara Menjalankan Aplikasi: - buka halaman https://es6console.com/ pada browser
+Stack yang digunakan: json, javascript
+Software yang dibutuhkan: Chrome browser, sublime
+Cara Menjalankan Aplikasi: - buka https://es6console.com/ di browser
                            - copy code 
                            - klik run 
 Jawaban Kegunaan JSON pada REST API
