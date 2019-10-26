@@ -1,0 +1,13 @@
+function Profile(name, age)
+{
+  var address = new String("Jl. Jati Kampung Halaman, Padang, Sumatera Barat");
+  var hobbies = ["Travelling","Nonton","Membaca"];
+  var is_married = false;
+  var list_school= [{"name":"Universitas Andalas"}];
+  var skills = [{"skill_name":"Web Programming","level":"beginer"}, {"skill_name":"MS Offices","level":"advanced"},{"skill_name":"SQL","level":"advance"}];
+  var interest_in_coding = true; 
+
+  return '{"Profile":{"name":'+name+',"age":'+age+',"address":'+address+',"hobbies":'+JSON.stringify(hobbies)+',"is_married":'+is_married+',"list_school":'+JSON.stringify(list_school)+',"skills"'+JSON.stringify(skills)+',"interest_in_coding":'+interest_in_coding+'}}';
+}
+
+console.log(Profile("Khairatunnisa Nanda Dinanti",25));
